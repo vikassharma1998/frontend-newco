@@ -1,0 +1,74 @@
+/* styles.css */
+.user-message {
+    text-align: right;
+  }
+  
+  .bot-message {
+    text-align: left;
+  }
+  
+  .field-set {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(255, 115, 0);
+    padding: 15px;
+    border-radius: 13px;
+  }
+.input-box-setup{
+    height: 400px;
+    overflow: scroll;
+}  
+.user-input-field {
+    flex: 1;
+    margin-right: 10px;
+    border: none;
+    padding: 15px;
+}
+  
+.user-input-field:focus-within {
+    border: none;
+    box-shadow: none;
+}
+  
+.user-upload-field {
+    margin-right: 10px;
+}
+  
+.user-upload-field .ant-btn,
+.user-send-button .ant-btn {
+    border: none;
+    color: rgb(255, 115, 0);
+}
+  
+.ant-btn-icon .anticon .anticon-upload svg {
+    font-size: 30px;
+}
+  
+.chat-setup {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 15%;
+}
+.power-by{
+    margin-top: 4px;
+    color: rgba(0, 0, 0, 0.25);
+    font-size: 12px;
+}
+@media (max-width: 768px) {
+    .chat-setup {
+        max-width: 800px;
+        margin: 10px;
+        /* margin-top: 0px; */
+        
+    }
+    .input-box-setup{
+        height: 692px;
+      }
+    .user-input-field {
+        flex: 1;
+        margin-right: 10px;
+        border: none;
+        padding: 8px;
+    }
+}
